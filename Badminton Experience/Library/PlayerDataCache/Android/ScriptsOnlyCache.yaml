@@ -1,17 +1,25 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ONSPSettings
     - Oculus.Platform.PlatformSettings
+    Oculus.VR.Editor.dll:
+    - OVRConfig
     Oculus.VR.dll:
     - OVRCameraRig
     - OVRControllerHelper
     - OVRDebugInfo
-    - OVRGearVrControllerTest
+    - OVRHand
+    - OVRHandTest
     - OVRHeadsetEmulator
     - OVRManager
+    - OVRMesh
+    - OVRMeshRenderer
     - OVRPlayerController
     - OVRSceneSampleController
     - OVRScreenFade
+    - OVRSkeleton
+    - OVRSkeletonRenderer
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -23,7 +31,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Oculus/VR/Scenes/GearVrControllerTest.unity:
+    Assets/Scenes/Training.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -42,6 +50,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
@@ -59,29 +69,43 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9810}
+      Script: {instanceID: 9814}
     - Class: 114
-      Script: {instanceID: 9876}
+      Script: {instanceID: 9880}
     - Class: 114
-      Script: {instanceID: 10022}
+      Script: {instanceID: 10026}
     - Class: 114
-      Script: {instanceID: 10044}
+      Script: {instanceID: 10048}
     - Class: 114
-      Script: {instanceID: 10098}
+      Script: {instanceID: 10102}
     - Class: 114
-      Script: {instanceID: 10486}
+      Script: {instanceID: 10492}
     - Class: 114
-      Script: {instanceID: 10660}
+      Script: {instanceID: 10548}
     - Class: 114
-      Script: {instanceID: 11028}
+      Script: {instanceID: 10566}
     - Class: 114
-      Script: {instanceID: 11326}
+      Script: {instanceID: 10666}
     - Class: 114
-      Script: {instanceID: 11476}
+      Script: {instanceID: 11036}
     - Class: 114
-      Script: {instanceID: 11884}
+      Script: {instanceID: 11064}
     - Class: 114
-      Script: {instanceID: 12396}
+      Script: {instanceID: 11170}
+    - Class: 114
+      Script: {instanceID: 11256}
+    - Class: 114
+      Script: {instanceID: 11484}
+    - Class: 114
+      Script: {instanceID: 11746}
+    - Class: 114
+      Script: {instanceID: 11892}
+    - Class: 114
+      Script: {instanceID: 11936}
+    - Class: 114
+      Script: {instanceID: 12404}
+    - Class: 114
+      Script: {instanceID: 12408}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1381,6 +1405,12 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: b00ce1f32326f1cd1160488ffd14965a
+    assemblyName: Oculus.VR.Editor.dll
+    namespaceName: 
+    className: OVRConfig
+  - hash:
+      serializedVersion: 2
       Hash: 8b9f42d72019bde2f9fe0667762eaff3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1657,5 +1687,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 13
   scenePathNames:
-  - Assets/Oculus/VR/Scenes/GearVrControllerTest.unity
-  playerPath: /Users/ryan/Documents/Senior Sem 2/Dynamic Motion/Scene Test.apk
+  - Assets/Scenes/Training.unity
+  playerPath: /Users/ryan/Documents/Senior Sem 2/Dynamic Motion/Scale Test.apk

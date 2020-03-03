@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: CMUDynMotion
   productName: Badminton Experience
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -152,7 +152,7 @@ PlayerSettings:
       dashSupport: 1
       lowOverheadMode: 0
       protectedContext: 0
-      v2Signing: 0
+      v2Signing: 1
     enable360StereoCapture: 0
   isWsaHolographicRemotingEnabled: 0
   protectGraphicsMemory: 0
@@ -402,7 +402,7 @@ PlayerSettings:
     m_Automatic: 1
   m_BuildTargetVRSettings:
   - m_BuildTarget: Standalone
-    m_Enabled: 0
+    m_Enabled: 1
     m_Devices:
     - Oculus
     - OpenVR
@@ -720,6 +720,7 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Collab: 1
     UNet: 1
   luminIcon:
     m_Name: 
@@ -740,10 +741,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: e6d69ea8-e9fc-4cac-9516-31dbe6493b40
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: Badminton Experience
+  organizationId: saccfft
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

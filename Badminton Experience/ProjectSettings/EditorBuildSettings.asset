@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
+    path: Assets/Oculus/VR/Scenes/HandTest.unity
+    guid: b9a31e08066d6e343a208d34ec298f09
+  - enabled: 0
+    path: Assets/Scenes/BasicVR.unity
+    guid: ea07e5ae435824b9cb9ef5f7e2039d73
+  - enabled: 0
     path: Assets/Oculus/VR/Scenes/GearVrControllerTest.unity
     guid: d56af3aeb2176e7459f753c1c2e2dd97
+  - enabled: 1
+    path: Assets/Scenes/Training.unity
+    guid: 18be8fa154c6b4513b6de3e1e67cf460
   m_configObjects: {}
