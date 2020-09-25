@@ -1,8 +1,220 @@
 fileFormatVersion: 2
 guid: 5fa8a135f7dd94ab0b82f57278063ac6
 ModelImporter:
-  serializedVersion: 26
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Box035
+    100004: Box036
+    100006: Box037
+    100008: Box038
+    100010: Box039
+    100012: Box040
+    100014: Box041
+    100016: Box042
+    100018: Box043
+    100020: Box044
+    100022: Box045
+    100024: Box046
+    100026: Box047
+    100028: Box048
+    100030: Box049
+    100032: Box050
+    100034: Box051
+    100036: Box052
+    100038: Box053
+    100040: Box054
+    100042: Box055
+    100044: Box056
+    100046: Box057
+    100048: Box058
+    100050: Box059
+    100052: Box060
+    100054: Box061
+    100056: Box062
+    100058: Box063
+    100060: Box064
+    100062: Box065
+    100064: Box066
+    100066: Box067
+    100068: Cylinder003
+    100070: Cylinder004
+    400000: //RootNode
+    400002: Box035
+    400004: Box036
+    400006: Box037
+    400008: Box038
+    400010: Box039
+    400012: Box040
+    400014: Box041
+    400016: Box042
+    400018: Box043
+    400020: Box044
+    400022: Box045
+    400024: Box046
+    400026: Box047
+    400028: Box048
+    400030: Box049
+    400032: Box050
+    400034: Box051
+    400036: Box052
+    400038: Box053
+    400040: Box054
+    400042: Box055
+    400044: Box056
+    400046: Box057
+    400048: Box058
+    400050: Box059
+    400052: Box060
+    400054: Box061
+    400056: Box062
+    400058: Box063
+    400060: Box064
+    400062: Box065
+    400064: Box066
+    400066: Box067
+    400068: Cylinder003
+    400070: Cylinder004
+    2100000: Box035Mat
+    2100002: Box036Mat
+    2100004: Box037Mat
+    2100006: Box038Mat
+    2100008: Box039Mat
+    2100010: Box040Mat
+    2100012: Box041Mat
+    2100014: Box042Mat
+    2100016: Box043Mat
+    2100018: Box044Mat
+    2100020: Box045Mat
+    2100022: Box046Mat
+    2100024: Box047Mat
+    2100026: Box048Mat
+    2100028: Box049Mat
+    2100030: Box050Mat
+    2100032: Box051Mat
+    2100034: Box052Mat
+    2100036: Box053Mat
+    2100038: Box054Mat
+    2100040: Box055Mat
+    2100042: Box056Mat
+    2100044: Box057Mat
+    2100046: Box058Mat
+    2100048: Box059Mat
+    2100050: Box060Mat
+    2100052: Box061Mat
+    2100054: Box062Mat
+    2100056: Box063Mat
+    2100058: Box064Mat
+    2100060: Box065Mat
+    2100062: Box066Mat
+    2100064: Box067Mat
+    2100066: Cylinder003Mat
+    2100068: Cylinder004Mat
+    2300000: Box035
+    2300002: Box036
+    2300004: Box037
+    2300006: Box038
+    2300008: Box039
+    2300010: Box040
+    2300012: Box041
+    2300014: Box042
+    2300016: Box043
+    2300018: Box044
+    2300020: Box045
+    2300022: Box046
+    2300024: Box047
+    2300026: Box048
+    2300028: Box049
+    2300030: Box050
+    2300032: Box051
+    2300034: Box052
+    2300036: Box053
+    2300038: Box054
+    2300040: Box055
+    2300042: Box056
+    2300044: Box057
+    2300046: Box058
+    2300048: Box059
+    2300050: Box060
+    2300052: Box061
+    2300054: Box062
+    2300056: Box063
+    2300058: Box064
+    2300060: Box065
+    2300062: Box066
+    2300064: Box067
+    2300066: Cylinder003
+    2300068: Cylinder004
+    3300000: Box035
+    3300002: Box036
+    3300004: Box037
+    3300006: Box038
+    3300008: Box039
+    3300010: Box040
+    3300012: Box041
+    3300014: Box042
+    3300016: Box043
+    3300018: Box044
+    3300020: Box045
+    3300022: Box046
+    3300024: Box047
+    3300026: Box048
+    3300028: Box049
+    3300030: Box050
+    3300032: Box051
+    3300034: Box052
+    3300036: Box053
+    3300038: Box054
+    3300040: Box055
+    3300042: Box056
+    3300044: Box057
+    3300046: Box058
+    3300048: Box059
+    3300050: Box060
+    3300052: Box061
+    3300054: Box062
+    3300056: Box063
+    3300058: Box064
+    3300060: Box065
+    3300062: Box066
+    3300064: Box067
+    3300066: Cylinder003
+    3300068: Cylinder004
+    4300000: Box035
+    4300002: Box036
+    4300004: Box037
+    4300006: Box038
+    4300008: Box039
+    4300010: Box040
+    4300012: Box041
+    4300014: Box042
+    4300016: Box043
+    4300018: Box044
+    4300020: Box045
+    4300022: Box046
+    4300024: Box047
+    4300026: Box048
+    4300028: Box049
+    4300030: Box050
+    4300032: Box051
+    4300034: Box052
+    4300036: Box053
+    4300038: Box054
+    4300040: Box055
+    4300042: Box056
+    4300044: Box057
+    4300046: Box058
+    4300048: Box059
+    4300050: Box060
+    4300052: Box061
+    4300054: Box062
+    4300056: Box063
+    4300058: Box064
+    4300060: Box065
+    4300062: Box066
+    4300064: Box067
+    4300066: Cylinder003
+    4300068: Cylinder004
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -38,7 +250,6 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -46,19 +257,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 1
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -67,11 +277,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -81,7 +290,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
