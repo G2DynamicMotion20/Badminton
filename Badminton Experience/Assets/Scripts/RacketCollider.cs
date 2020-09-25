@@ -7,15 +7,23 @@ public class RacketCollider : MonoBehaviour
 	[SerializeField]
 	private RacketFollower _RacketCapsulePrefab;
 
+	private RacketFollower instance;
+	public bool head;
+
 	private void SpawnRacketCapsuleFollower()
 	{
-		var follower = Instantiate(_RacketCapsulePrefab);
-		follower.transform.position = transform.position;
-		follower.SetFollowTarget(this);
+		instance = Instantiate(_RacketCapsulePrefab);
+		instance.transform.position = transform.position;
+		instance.SetFollowTarget(this, head);
 	}
 
 	private void Start()
 	{
 		SpawnRacketCapsuleFollower();
+	}
+
+    public float GetSpeed()
+    {
+		return instance.gameObject.GetComponent<Rigidbody>().velocity.magnitude;
 	}
 }
